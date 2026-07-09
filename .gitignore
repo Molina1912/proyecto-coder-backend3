@@ -1,5 +1,32 @@
-node_modules
+# Dependencias
+node_modules/
+package-lock.json
+
+# Variables de entorno
 .env
 .env.test
+
+# Coverage de tests
+coverage/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
+
+# Documentación temporal
+docs/
